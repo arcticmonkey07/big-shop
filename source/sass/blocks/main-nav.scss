@@ -1,5 +1,9 @@
 .main-nav {
   margin-left: auto;
+
+  @media (max-width: $mobile-width) {
+    margin: 10px auto 0 auto;
+  }
 }
 
 .main-nav__list {
@@ -15,8 +19,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 373px;
-  height: 65px;
+  width: 100%;
+  height: 100%;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -38,6 +42,19 @@
   color: $mainColor;
   background-color: #fff;
   text-align: center;
+
+  @media (max-width: 1400px) {
+    font-size: 15px;
+  }
+
+  @media (max-width: 1030px) {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 8px 0;
+  }
 }
 
 .main-nav__link:hover {
@@ -54,6 +71,16 @@
   padding-right: 52px;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
+
+  @media (max-width: 1400px) {
+    padding-left: 51px;
+    padding-right: 32px;
+  }
+
+  @media (max-width: 1030px) {
+    padding-left: 40px;
+    padding-right: 25px;
+  }
 }
 
 .main-nav__link--search::before {
@@ -64,6 +91,22 @@
   width: 25px;
   height: 26px;
   background-image: url("../img/icons/search.png");
+
+  @media (max-width: 1400px) {
+    left: 20px;
+  }
+
+  @media (max-width: 1030px) {
+    top: 18px;
+    left: 11px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: $mobile-width) {
+    top: 13px;
+    background-size: 15px;
+  }
 }
 
 .main-nav__link--search::after {
@@ -74,6 +117,10 @@
   width: 1px;
   height: 36px;
   background-color: #e0e0e0;
+
+  @media (max-width: $mobile-width) {
+    height: 20px;
+  }
 }
 
 .main-nav__link--collection {
@@ -82,6 +129,16 @@
   padding-right: 66px;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
+
+  @media (max-width: 1400px) {
+    padding-left: 24px;
+    padding-right: 51px;
+  }
+
+  @media (max-width: 1030px) {
+    padding-left: 20px;
+    padding-right: 45px;
+  }
 }
 
 .fa-angle-down {
@@ -89,4 +146,15 @@
   top: 22px;
   right: 31px;
   font-size: 23px;
+
+  @media (max-width: 1030px) {
+    top: 17px;
+    right: 24px;
+  }
+
+  @media (max-width: $mobile-width) {
+    top: 14px;
+    right: 20px;
+    font-size: 19px;
+  }
 }

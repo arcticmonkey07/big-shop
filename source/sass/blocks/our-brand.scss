@@ -1,5 +1,9 @@
 .our-brand {
   margin-bottom: 180px;
+
+  @media (max-width: 1030px) {
+    margin-bottom: 80px;
+  }
 }
 
 .our-brand__container {
@@ -8,6 +12,10 @@
 
 .our-brand__wrapper {
   padding-top: 248px;
+
+  @media (max-width: $mobile-width) {
+    padding-top: 120px;
+  }
 }
 
 .our-brand__header {
@@ -18,6 +26,21 @@
   line-height: 26px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
+
+  @media (max-width: 1260px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 1030px) {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 25px;
+    line-height: 25px;
+  }
 }
 
 .our-brand__header::after {
@@ -29,17 +52,32 @@
   width: 63px;
   height: 101px;
   background-image: url("../img/our-brands-line.png");
+
+  @media (max-width: 1260px) {
+    right: 270px;
+  }
 }
 
 .our-brand__subtext {
   display: block;
-  width: 430px;
+  max-width: 430px;
   margin: 0;
   margin-bottom: 23px;
   font-size: 25px;
   line-height: 34px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 100;
+
+  @media (max-width: 1030px) {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 
 .our-brand__subtext-link {
@@ -56,18 +94,36 @@
 }
 
 .our-brand__text {
-  width: 520px;
+  max-width: 520px;
   margin: 0;
   font-size: 16px;
   line-height: 26px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 100;
   color: #888888;
+
+  @media (max-width: 1030px) {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 .our-brand__image {
   padding-left: 174px;
   padding-top: 100px;
+
+  @media (max-width: 1260px) {
+    padding-left: 50px;
+  }
+
+  @media (max-width: 1030px) {
+    padding-left: 0px;
+  }
 }
 
 .our-brand__image-wrapper {
@@ -83,6 +139,10 @@
   width: 414px;
   height: 413px;
   background-image: url("../img/out-brands-circle.png");
+
+  @media (max-width: 1260px) {
+    right: 50px;
+  }
 }
 
 .our-brand__image-wrapper::before {
@@ -93,4 +153,13 @@
   width: 33px;
   height: 60px;
   background-image: url("../img/snake.png");
+
+  @media (max-width: 1260px) {
+    right: -40px;
+  }
+
+  @media (max-width: 700px) {
+    top: 280px;
+    right: 250px;
+  }
 }

@@ -21,11 +21,28 @@
   width: 44px;
   height: 44px;
   background-image: url("../img/bg-header-shape-square.png");
+
+  @media (max-width: 1490px) {
+    right: 120px;
+  }
 }
 
 .page-header__container {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 80px;
+
+  @media (max-width: 1400px) {
+    padding-top: 50px;
+  }
+
+  @media (min-width: 480px) and (max-width: $mobile-width)  {
+    flex-wrap: nowrap;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-top: 30px;
+  }
 }
 
 .page-header__container::before {
@@ -36,5 +53,14 @@
   width: 398px;
   height: 125px;
   background-image: url("../img/bg-header-pattern.png");
+
+  @media (max-width: $mobile-width) {
+    width: 320px;
+  }
 }
 
+.page-header__logo-image {
+  @media (max-width: $mobile-width) {
+    width: 140px;
+  }
+}
