@@ -1,0 +1,40 @@
+.page-header {
+  position: absolute;
+  width: 100%;
+}
+
+.page-header::before {
+  content: "";
+  position: absolute;
+  top: 182px;
+  right: 690px;
+  width: 26px;
+  height: 30px;
+  background-image: url("../img/bg-header-shape-circle.png");
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  top: 741px;
+  right: 57px;
+  width: 44px;
+  height: 44px;
+  background-image: url("../img/bg-header-shape-square.png");
+}
+
+.page-header__container {
+  display: flex;
+  padding-top: 80px;
+}
+
+.page-header__container::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -40px;
+  width: 398px;
+  height: 125px;
+  background-image: url("../img/bg-header-pattern.png");
+}
+

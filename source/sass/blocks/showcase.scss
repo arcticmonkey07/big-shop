@@ -1,0 +1,140 @@
+.showcase__wrapper {
+  position: relative;
+  width: 1379px;
+  height: 1216px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.showcase__header {
+  position: relative;
+  z-index: 1;
+  width: 353px;
+  margin: 0 auto;
+  margin-bottom: 131px;
+  font-size: 50px;
+  line-height: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.showcase__header::before {
+  content: "";
+  position: absolute;
+  top: -70px;
+  left: -360px;
+  width: 117px;
+  height: 117px;
+  background-image: url("../img/showcase-triangle-01.png");
+}
+
+.showcase__header::after {
+  content: "";
+  position: absolute;
+  top: -48px;
+  right: -35px;
+  z-index: -1;
+  width: 87px;
+  height: 139px;
+  background-image: url("../img/showcase-line.png");
+}
+
+.showcase__list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 870px;
+  margin: 0 auto;
+  margin-bottom: 122px;
+  padding: 0;
+  list-style: none;
+}
+
+.showcase__list::before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: -70px;
+  width: 35px;
+  height: 36px;
+  background-image: url("../img/showcase-circle.png");
+}
+
+.showcase__list::after {
+  content: "";
+  position: absolute;
+  top: 219px;
+  right: -287px;
+  width: 34px;
+  height: 34px;
+  background-image: url("../img/showcase-square.png");
+}
+
+.showcase__link {
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: $mainColor;
+}
+
+.showcase__link:hover {
+  color: #988DB2;
+}
+
+.showcase__link:active {
+  font-size: 20px;
+  color: #b394fa;
+}
+
+.showcase__items-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.showcase__items-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 495px;
+  left: -112px;
+  width: 41px;
+  height: 41px;
+  background-image: url("../img/showcase-triangle-02.png");
+}
+
+.showcase__item {
+  width: 360px;
+  height: 390px;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.showcase__item-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 255px;
+  margin-bottom: 18px;
+}
+
+.showcase__item-header {
+  margin: 0;
+  margin-bottom: 13px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  color: #777777;
+  text-align: center;
+}
+
+.showcase__item-price {
+  display: block;
+  margin: 0;
+  font-size: 25px;
+  line-height: 25px;
+  font-family: "MyriadPro", Arial, sens-serif;
+  font-weight: 300;
+  text-align: center;
+}

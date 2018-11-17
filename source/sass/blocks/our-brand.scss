@@ -1,0 +1,96 @@
+.our-brand {
+  margin-bottom: 180px;
+}
+
+.our-brand__container {
+  display: flex;
+}
+
+.our-brand__wrapper {
+  padding-top: 248px;
+}
+
+.our-brand__header {
+  position: relative;
+  margin: 0;
+  margin-bottom: 36px;
+  font-size: 50px;
+  line-height: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.our-brand__header::after {
+  content: "";
+  position: absolute;
+  top: -39px;
+  right: 218px;
+  z-index: -1;
+  width: 63px;
+  height: 101px;
+  background-image: url("../img/our-brands-line.png");
+}
+
+.our-brand__subtext {
+  display: block;
+  width: 430px;
+  margin: 0;
+  margin-bottom: 23px;
+  font-size: 25px;
+  line-height: 34px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+
+.our-brand__subtext-link {
+  color: #8d83f9;
+}
+
+.our-brand__subtext-link:hover {
+  color: #7C74D5;
+  text-decoration: underline;
+}
+
+.our-brand__subtext-link:active {
+  color: #B2B2B2;
+}
+
+.our-brand__text {
+  width: 520px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
+  color: #888888;
+}
+
+.our-brand__image {
+  padding-left: 174px;
+  padding-top: 100px;
+}
+
+.our-brand__image-wrapper {
+  position: relative;
+}
+
+.our-brand__image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: -150px;
+  z-index: -1;
+  width: 414px;
+  height: 413px;
+  background-image: url("../img/out-brands-circle.png");
+}
+
+.our-brand__image-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 467px;
+  right: -178px;
+  width: 33px;
+  height: 60px;
+  background-image: url("../img/snake.png");
+}

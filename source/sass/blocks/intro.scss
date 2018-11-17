@@ -1,0 +1,63 @@
+.intro {
+  height: 1051px;
+  background-image: 
+  linear-gradient(25deg, transparent 0%, transparent 41%, rgba(17, 0, 255, 0.5) 41%, rgba(170, 85, 243, 0.5) 100%),
+    url("../img/bg-header-girl.png");
+  background-repeat: no-repeat;
+  background-position: 0 0, -39px 58px;
+}
+
+.intro__wrapper {
+  padding-top: 329px;
+  padding-left: 829px;
+}
+
+.intro__caption {
+  display: block;
+  width: 520px;
+  margin: 0;
+  font-size: 115px;
+  line-height: 120px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 700;
+  color: #090000;
+}
+
+.intro__caption--white {
+  color: #fff;
+}
+
+.intro__text {
+  margin: 0;
+  margin-left: 9px;
+  margin-bottom: 83px;
+  font-size: 50px;
+  line-height: 98px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  color: #fbf934;
+  text-transform: uppercase;
+}
+
+.intro__button {
+  padding: 15px 57px;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #151515;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.intro__button:hover {
+  background-image: linear-gradient(#fff 0%, #D4D4D4 35%, #B3B3B3 50%, #B3B3B3 51%, #D4D4D4 100%);
+}
+
+.intro__button:active {
+  background-image: linear-gradient(#fff 0%, #D4D4D4 55%, #B3B3B3 100%);
+}
+
+.fa-long-arrow-alt-right {
+  padding-left: 9px;
+}

@@ -1,0 +1,45 @@
+@import "normalize.scss";
+@import "fonts.scss";
+@import "variables.scss";
+@import "blocks/container.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/intro.scss";
+@import "blocks/arrivals.scss";
+@import "blocks/our-brand.scss";
+@import "blocks/showcase.scss";
+@import "blocks/newsletter.scss";
+@import "blocks/page-footer.scss";
+
+
+body {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 100;
+  color: $mainColor;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

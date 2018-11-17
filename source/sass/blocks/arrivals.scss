@@ -1,0 +1,223 @@
+.arrivals {
+  margin-top: -35px;
+  margin-bottom: 100px;
+}
+
+.arrivals__container {
+  position: relative;
+  width: 1379px;
+  margin: 0 auto;
+  padding-top: 101px;
+  background-color: #fff;
+}
+
+.arrivals__container::before {
+  content: "";
+  position: absolute;
+  top: 424px;
+  left: -33px;
+  z-index: -1;
+  width: 70px;
+  height: 69px;
+  background-image: url("../img/circle.png");
+}
+
+.arrivals__container::after {
+  content: "";
+  position: absolute;
+  top: 1108px;
+  right: -46px;
+  z-index: -1;
+  width: 88px;
+  height: 88px;
+  background-image: url("../img/square-02.png");
+}
+
+.arrivals__header {
+  position: relative;
+  z-index: 1;
+  width: 382px;
+  margin: 0 auto;
+  margin-bottom: 87px;
+  font-size: 50px;
+  line-height: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  color: $mainColor;
+}
+
+.arrivals__header::before {
+  content: "";
+  position: absolute;
+  top: -53px;
+  right: -20px;
+  z-index: -1;
+  width: 93px;
+  height: 147px;
+  background-image: url("../img/line.png");
+}
+
+.arrivals__header::after {
+  content: "";
+  position: absolute;
+  top: -44px;
+  right: -369px;
+  width: 33px;
+  height: 60px;
+  background-image: url("../img/snake.png");
+}
+
+.arrivals__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.arrivals__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 923px;
+  left: -153px;
+  width: 91px;
+  height: 91px;
+  background-image: url("../img/triangle.png");
+}
+
+.arrivals__wrapper::after {
+  content: "";
+  position: absolute;
+  top: 291px;
+  right: -123px;
+  width: 37px;
+  height: 37px;
+  background-image: url("../img/square.png");
+}
+
+.arrivals__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 400px;
+  margin-bottom: 63px;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.arrivals__item:hover {
+  box-shadow: 0 0 50px 3px #dddfe0;
+}
+
+.arrivals__item:hover .arrivals__item-like {
+  display: block;
+}
+
+.arrivals__item:hover .arrivals__item-comment {
+  display: block;
+}
+
+.arrivals__item:hover .arrivals__item-header {
+  display: none;
+}
+
+.arrivals__item:hover .arrivals__item-price {
+  margin-top: 40px;
+  color: $purpleColor;
+}
+
+.arrivals__item:hover .arrivals__item-button {
+  display: block;
+}
+
+.arrivals__item-like {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  display: none;
+  height: 18px;
+  padding-left: 26px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
+  color: #bbbbbb;
+  background-image: url("../img/icons/heart.png");
+  background-repeat: no-repeat;
+}
+
+.arrivals__item-comment {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  display: none;
+  height: 18px;
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
+  color: #bbbbbb;
+  background-image: url("../img/icons/comment.png");
+  background-repeat: no-repeat;
+}
+
+.arrivals__item-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 265px;
+}
+
+.arrivals__item-header {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
+  color: #777777;
+  text-align: center;
+}
+
+.arrivals__item-price {
+  display: block;
+  font-size: 25px;
+  line-height: 25px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: $mainColor;
+  text-align: center;
+}
+
+.arrivals__item-button {
+  position: absolute;
+  bottom: -28px;
+  left: 98px;
+  display: none;
+  width: 202px;
+  margin: 0 auto;
+  padding: 17px 0px;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  background-image: linear-gradient(117deg, #8c84f9 0%, #a165f4 100%);
+  box-shadow: 0 0 35px 15px #f0effe;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrivals__item-button:hover {
+  background-image: linear-gradient(-117deg, #8c84f9 0%, #a165f4 100%);
+  box-shadow: 0 0 50px 4px #8A8A8A;
+}
+
+.arrivals__item-button:active {
+  color: #C2C2C2;
+  box-shadow: none;
+}
