@@ -6,7 +6,7 @@
     margin-bottom: 0;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     margin-bottom: 50px;
   }
 
@@ -22,7 +22,7 @@
   padding-top: 101px;
   background-color: #fff;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     padding-top: 60px;
   }
 }
@@ -71,7 +71,7 @@
     line-height: 18px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     max-height: 0;
     font-size: 30px;
   }
@@ -91,7 +91,7 @@
   height: 147px;
   background-image: url("../img/line.png");
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     right: 143px;
   }
 
@@ -166,7 +166,7 @@
     width: 250px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     width: 160px;
     height: 290px;
     margin-bottom: 20px;
@@ -204,7 +204,7 @@
   margin-top: 40px;
   color: $purpleColor;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     position: relative;
     top: -36px;
     left: 0;
@@ -225,19 +225,22 @@
   top: 25px;
   left: 20px;
   display: none;
-  height: 18px;
   padding-left: 26px;
   font-size: 14px;
   line-height: 18px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 100;
   color: #bbbbbb;
-  background-image: url("../img/icons/heart.png");
-  background-repeat: no-repeat;
 
   @media (max-width: $mobile-width) {
     display: block;
   }
+}
+
+.arrivals__item-like-svg {
+  margin-bottom: -3px;
+  margin-right: 5px;
+  fill: #f95889;
 }
 
 .arrivals__item-comment {
@@ -252,12 +255,16 @@
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 100;
   color: #bbbbbb;
-  background-image: url("../img/icons/comment.png");
-  background-repeat: no-repeat;
 
   @media (max-width: $mobile-width) {
     display: block;
   }
+}
+
+.arrivals__item-comment-svg {
+  margin-bottom: -3px;
+  margin-right: 5px;
+  fill: #72dcec;
 }
 
 .arrivals__item-image {
@@ -265,7 +272,7 @@
     width: 150px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     width: 125px;
   }
 }
@@ -295,7 +302,7 @@
     line-height: 22px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 16px;
     line-height: 20px;
   }
@@ -315,7 +322,7 @@
     line-height: 22px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 20px;
     line-height: 21px;
   }
@@ -345,7 +352,7 @@
     left: 45px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     width: 120px;
     padding: 10px 0;
     font-size: 15px;

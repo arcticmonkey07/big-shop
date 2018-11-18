@@ -1,7 +1,7 @@
 .our-brand {
   margin-bottom: 180px;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     margin-bottom: 80px;
   }
 }
@@ -31,7 +31,7 @@
     font-size: 40px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 30px;
@@ -68,7 +68,7 @@
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 100;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 19px;
     line-height: 26px;
   }
@@ -102,7 +102,7 @@
   font-weight: 100;
   color: #888888;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 14px;
     line-height: 23px;
   }
@@ -114,6 +114,7 @@
 }
 
 .our-brand__image {
+  width: 100%;
   padding-left: 174px;
   padding-top: 100px;
 
@@ -121,8 +122,11 @@
     padding-left: 50px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     padding-left: 0px;
+  }
+
+  @media (max-width: $mobile-width) {
   }
 }
 

@@ -22,7 +22,7 @@
     font-size: 40px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 30px;
   }
 
@@ -50,7 +50,7 @@
     font-size: 120px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     left: 20px;
     font-size: 90px;
   }
@@ -78,7 +78,7 @@
     height: 60px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     width: 500px;
     height: 50px;
   }
@@ -101,7 +101,7 @@
   font-weight: 100;
   color: $mainColor;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 17px;
   }
 
@@ -117,7 +117,7 @@
   font-size: 14px;
   transition: 0.7s;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 10px;
   }
 }
@@ -132,7 +132,7 @@
   font-weight: 100;
   color: $mainColor;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 17px;
     line-height: 20px;
   }
@@ -146,7 +146,7 @@
   font-size: 14px;
   line-height: 30px;
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     font-size: 10px;
   }
 }
@@ -178,7 +178,7 @@
     right: 92px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     width: 140px;
     height: 40px;
     font-size: 15px;
@@ -187,7 +187,7 @@
 
   @media (max-width: $mobile-width) {
     width: 70px;
-    height: 30px;
+    height: 32px;
     font-size: 12px;
     right: 6px;
   }

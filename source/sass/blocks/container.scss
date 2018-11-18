@@ -8,7 +8,7 @@
     width: 940px;
   }
 
-  @media (max-width: 1030px) {
+  @media (max-width: $desktop-width) {
     width: 600px;
   }
 
