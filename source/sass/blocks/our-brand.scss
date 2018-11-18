@@ -114,7 +114,6 @@
 }
 
 .our-brand__image {
-  width: 100%;
   padding-left: 174px;
   padding-top: 100px;
 
@@ -123,6 +122,7 @@
   }
 
   @media (max-width: $desktop-width) {
+    width: 100%;
     padding-left: 0px;
   }
 
@@ -153,17 +153,8 @@
   content: "";
   position: absolute;
   top: 467px;
-  right: -178px;
+  right: -8%;
   width: 33px;
   height: 60px;
   background-image: url("../img/snake.png");
-
-  @media (max-width: 1260px) {
-    right: -40px;
-  }
-
-  @media (max-width: 700px) {
-    top: 280px;
-    right: 250px;
-  }
 }

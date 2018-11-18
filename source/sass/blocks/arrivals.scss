@@ -85,34 +85,21 @@
   content: "";
   position: absolute;
   top: -53px;
-  right: 361px;
+  right: 30%;
   z-index: -1;
   width: 93px;
   height: 147px;
   background-image: url("../img/line.png");
-
-  @media (max-width: $desktop-width) {
-    right: 143px;
-  }
-
-  @media (max-width: $mobile-width) {
-    right: 24px;
-  }
 }
 
 .arrivals__header::after {
   content: "";
   position: absolute;
   top: -44px;
-  right: 25px;
+  right: 0%;
   width: 33px;
   height: 60px;
   background-image: url("../img/snake.png");
-
-  @media (max-width: $mobile-width) {
-    right: 0;
-    left: 0px;
-  }
 }
 
 .arrivals__wrapper {

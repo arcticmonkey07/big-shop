@@ -40,44 +40,25 @@
 }
 
 .intro__wrapper {
-  padding-top: 329px;
-  padding-left: 829px;
+  padding-top: 22%;
+  margin-left: 55%;
 
   @media (max-width: 1400px) {
-    padding-top: 250px;
-    padding-left: 790px;
-  }
-
-  @media (max-width: 1170px) {
-    padding-left: 600px;
-  }
-
-  @media (max-width: $desktop-width) {
-    padding-top: 230px;
-    padding-left: 550px;
-  }
-
-  @media (max-width: 980px) {
-    padding-top: 230px;
-    padding-left: 450px;
+    padding-top: 25%;
   }
 
   @media (max-width: 740px) {
-    padding-top: 230px;
-    padding-left: 380px;
-  }
-
-  @media (max-width: 655px) {
-    padding-left: 350px;
+    padding-top: 35%;
   }
 
   @media (max-width: $mobile-width) {
-    padding-left: 20px;
+    margin-left: 5%;
+    padding-top: 55%;
   }
 
   @media (min-width: 480px) and (max-width: $mobile-width)  {
-    padding-top: 180px;
-    padding-left: 20px;
+    margin-left: 5%;
+    padding-top: 35%;
   }
 }
 
